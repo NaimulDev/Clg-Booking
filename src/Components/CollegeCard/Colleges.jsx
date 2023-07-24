@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Colleges = ({ college }) => {
-  console.log(college);
+
   return (
     <div>
       <a href="#" className="group relative block bg-black">
