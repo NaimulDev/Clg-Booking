@@ -1,7 +1,8 @@
 module.exports = {
   root: true,
-  env: { browser: true, es2023: true },
+  env: { browser: true, es2020: true },
   extends: [
+    
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',
@@ -12,6 +13,8 @@ module.exports = {
   settings: { react: { version: '18.2' } },
   plugins: ['react-refresh'],
   rules: {
+    'no-unused-vars': 0,
+'no-undef': 0,
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
