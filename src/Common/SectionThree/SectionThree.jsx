@@ -1,11 +1,11 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useEffect, useState } from "react";
-import slide1 from "../../../assets/images/SectionThree/preview-simply-bookingpage.png";
-import slide2 from "../../../assets/images/SectionThree/preview-simply-linebot.png";
-import slide3 from "../../../assets/images/SectionThree/preview-simply-widget.png";
-import slide4 from "../../../assets/images/SectionThree/preview-simplyinstagram.png";
-import slide5 from "../../../assets/images/SectionThree/preview-simplyinstagram.png";
-import slide6 from "../../../assets/images/SectionThree/preview-simplyinstagram.png";
+import slide1 from "../../assets/images/SectionThree/preview-simply-bookingpage.png";
+import slide2 from "../../assets/images/SectionThree/preview-simply-linebot.png";
+import slide3 from "../../assets/images/SectionThree/preview-simply-widget.png";
+import slide4 from "../../assets/images/SectionThree/preview-simplyinstagram.png";
+import slide5 from "../../assets/images/SectionThree/preview-simplyinstagram.png";
+import slide6 from "../../assets/images/SectionThree/preview-simplyinstagram.png";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 
 const images = [slide1, slide2, slide3, slide4, slide5, slide6];

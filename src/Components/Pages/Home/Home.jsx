@@ -4,8 +4,8 @@ import SocialLinks from "../../../Common/SocialLink";
 import CollegeCard from "../../CollegeCard/CollegeCard";
 import Logo from "../../../Common/Logo/Logo";
 import Gallery from "../../../Common/Gallerry/Gallery";
-import Researches from "../Researches/Researches";
-import ReviewCard from "../ReviewCard/ReviewCard";
+
+import SectionThree from "../../../Common/SectionThree/SectionThree";
 
 const Home = () => {
   return (
@@ -22,11 +22,10 @@ const Home = () => {
         <Gallery></Gallery>
       </div>
       <div className="mt-20">
-        <Researches></Researches>
+        <SectionThree/>
+
       </div>
-      <div className="mt-20">
-        <ReviewCard></ReviewCard>
-      </div>
+    
     </div>
   );
 };

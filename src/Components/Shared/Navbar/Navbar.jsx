@@ -57,7 +57,7 @@ const Navbar = () => {
               <li>
                 <Link to="/allcollege">COLLEGE</Link>
               </li>
-              <li tabIndex={0}>
+              <li>
                 <details>
                   <summary> </summary>
                   <ul className="p-2"></ul>
